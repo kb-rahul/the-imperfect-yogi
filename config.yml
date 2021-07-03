@@ -46,6 +46,14 @@ params:
             - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
             - Do give a 🌟 on Github !
             - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+
+    
+   
+    editPost:
+        URL: "https://github.com/kb-rahul/the-imperfect-yogi/tree/main/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true  
+        
     socialIcons:
         - name: KoFi
           url: "https://ko-fi.com/theimperfectyogi"
