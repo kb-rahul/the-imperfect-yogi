@@ -1,5 +1,5 @@
 ---
-baseURL: http://example.org/
+baseURL: https://the-imperfect-yogi.netlify.com
 languageCode: en-us
 title: The Imperfect Yogi
 theme: papermod
@@ -7,21 +7,21 @@ googleAnalytics: G-WP9BXD663X
 languages:
   en:
     languageName: English
-    weight: 1
+    weight: "1"
     menu:
       main:
       - name: Archive
         url: archives
-        weight: 5
+        weight: "5"
       - name: Search
         url: search/
-        weight: 10
+        weight: "10"
       - name: Tags
         url: tags/
-        weight: 10
+        weight: "10"
       - name: Categories
         url: categories/
-        weight: 10
+        weight: "10"
 outputs:
   home:
   - HTML
