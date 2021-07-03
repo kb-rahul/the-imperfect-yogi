@@ -1,67 +1,58 @@
-baseURL: 'http://example.org/'
+---
+baseURL: http://example.org/
 languageCode: en-us
 title: The Imperfect Yogi
 theme: papermod
-
 googleAnalytics: G-WP9BXD663X
-
 languages:
-    en:
-        languageName: "English"
-        weight: 1
-        menu:
-            main:
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
-
+  en:
+    languageName: English
+    weight: 1
+    menu:
+      main:
+      - name: Archive
+        url: archives
+        weight: 5
+      - name: Search
+        url: search/
+        weight: 10
+      - name: Tags
+        url: tags/
+        weight: 10
+      - name: Categories
+        url: categories/
+        weight: 10
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
-
+  home:
+  - HTML
+  - RSS
+  - JSON
 params:
-    ShowReadingTime: true
-    env: production
-    ShowToc: true
-    TocOpen: true
-    ShowBreadCrumbs: true
-    ShowShareButtons: true
-    author: "K B Rahul"
-    images: "https://res.cloudinary.com/kbrassetplus/image/upload/v1613825538/sample.jpg"
-    homeInfoParams:
-        Title: "The Imperfect Yogi"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-            - Do give a 🌟 on Github !
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
-    
-   
-    editPost:
-        URL: "https://github.com/kb-rahul/the-imperfect-yogi/tree/main/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true  
-        
-    socialIcons:
-        - name: KoFi
-          url: "https://ko-fi.com/theimperfectyogi"
-        - name: youtube
-          url: "https://youtube.com"
-        - name: instagram
-          url: "https://www.instagram.com/the_imperfect_yogi_/"
-        - name: twitter
-          url: "https://twitter.com/kbrahul_"
-        - name: email
-          url: mailto:kb.rahul15@gmail.com?subject=(The Imperfect Yogi Clan)
+  ShowReadingTime: true
+  env: production
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: true
+  author: K B Rahul
+  images: https://res.cloudinary.com/kbrassetplus/image/upload/v1613825538/sample.jpg
+  homeInfoParams:
+    Title: The Imperfect Yogi
+    Content: "Welcome to demo of hugo's theme PaperMod. - **PaperMod** is a simple
+      but fast and responsive theme with useful feature-set that enhances UX. - Do
+      give a \U0001F31F on Github ! - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).\n"
+  editPost:
+    URL: https://github.com/kb-rahul/the-imperfect-yogi/tree/main/content
+    Text: Suggest Changes
+    appendFilePath: true
+  socialIcons:
+  - name: KoFi
+    url: https://ko-fi.com/theimperfectyogi
+  - name: youtube
+    url: https://youtube.com
+  - name: instagram
+    url: https://www.instagram.com/the_imperfect_yogi_/
+  - name: twitter
+    url: https://twitter.com/kbrahul_
+  - name: email
+    url: mailto:kb.rahul15@gmail.com?subject=(The Imperfect Yogi Clan)
