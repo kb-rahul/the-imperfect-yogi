@@ -1,9 +1,9 @@
 ---
-baseURL: https://the-imperfect-yogi.netlify.com
+baseURL: https://kbrahul.netlify.com
 languageCode: en-us
-title: The Imperfect Yogi
+title: K B Rahul 
 theme: PaperMod
-googleAnalytics: G-2JWVD66PRZ
+googleAnalytics: None
 languages:
   en:
     languageName: English
@@ -36,11 +36,21 @@ params:
   ShowShareButtons: true
   author: K B Rahul
   images: https://res.cloudinary.com/kbrassetplus/image/upload/v1613825538/sample.jpg
-  homeInfoParams:
-    Title: The Imperfect Yogi
-    Content: "Welcome to demo of hugo's theme PaperMod. - **PaperMod** is a simple
-      but fast and responsive theme with useful feature-set that enhances UX. - Do
-      give a \U0001F31F on Github ! - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).\n"
+  profileMode:
+    enabled: true
+    title: "Pictures, Stories, Code and more" # optional default will be site title
+    subtitle: "Happiness is a habit"
+    imageUrl: "https://res.cloudinary.com/kbrassetplus/image/upload/v1613825538/sample.jpg" # optional
+    imageTitle: "Some Image Title" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+        - name: Archive
+          url: "/archives"
+        - name: Github
+          url: "https://github.com/kb-rahul"
+        - name: Twitter
+          url: "https://twitter.com/kbrahul_"
   editPost:
     URL: https://github.com/kb-rahul/the-imperfect-yogi/tree/main/content
     Text: Suggest Changes
@@ -55,4 +65,4 @@ params:
   - name: twitter
     url: https://twitter.com/kbrahul_
   - name: email
-    url: mailto:kb.rahul15@gmail.com?subject=(The Imperfect Yogi Clan)
+    url: mailto:kb.rahul15@gmail.com?subject=(Link the article here)
